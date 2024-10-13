@@ -11,6 +11,8 @@ int main(int argc, char const *argv[])
     {
         printf("%d\n", i); //i를 출력하는 것이다.
         printf("Hello World");
+        printf("Hello World");
+
     }
     return 0;
 }
