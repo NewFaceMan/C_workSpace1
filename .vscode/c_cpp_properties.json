@@ -1,17 +1,24 @@
 {
     "configurations": [
         {
-            "name": "macos-clang-arm64",
+            "name": "Mac",
             "includePath": [
                 "${workspaceFolder}/**"
             ],
-            "compilerPath": "/MinGW/bin/gcc",
+            "compilerPath": "/usr/bin/clang++",  // Mac 환경용
             "cStandard": "c23",
             "cppStandard": "${default}",
-            "intelliSenseMode": "macos-clang-arm64",
-            "compilerArgs": [
-                ""
-            ]
+            "intelliSenseMode": "macos-clang-arm64"
+        },
+        {
+            "name": "Windows",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "compilerPath": "C:/MinGW/bin/gcc.exe",  // Windows 환경용
+            "cStandard": "c23",
+            "cppStandard": "${default}",
+            "intelliSenseMode": "windows-gcc-x64"
         }
     ],
     "version": 4
