@@ -15,7 +15,8 @@ int main(int argc, char const *argv[])
     return 0;
 }
 #endif
-#if 01
+
+#if 00
 #include <stdio.h>
 int main(int argc, char const *argv[])
 {
@@ -48,5 +49,17 @@ int main(int argc, char const *argv[])
     printf("\n");
     return 0;
 }
+#endif
+
+#if 01
+#include <stdio.h>
+int main(int argc, char const *argv[])
+{
+    int aa[] = {1, 2, 3, 4, 5};
+    int size = sizeof(aa) / sizeof(int);
+    printf("배열 aa[]의 요소는 %d 입니다.\n", size);
+    return 0;
+}
+
 #endif
 
