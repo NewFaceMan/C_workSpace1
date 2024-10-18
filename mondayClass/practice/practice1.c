@@ -10,6 +10,9 @@ int main(int argc, char const *argv[])
     for (int i = x; i > 0; i-=2) //int i는 x부터 시작하고, i가 0까지 돌게 한다. 한 번 돌고 i - 2를 해서 다시 i에 대입한다.
     {
         printf("%d\n", i); //i를 출력하는 것이다.
+        printf("Hello World");
+        printf("Hello World");
+
     }
     return 0;
 }
