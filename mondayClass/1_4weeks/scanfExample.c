@@ -1,4 +1,4 @@
-# if 0
+# if 0 //정수 두 개 입력받기
 #include <stdio.h>
 
 int main() {
@@ -11,7 +11,7 @@ int main() {
 }
     # endif
 
-    # if 0
+    # if 0 //정수와 실수 입력받기
     #include <stdio.h>
     
     int main() {
@@ -24,7 +24,7 @@ int main() {
     }
     #endif
 
-    #if 0
+    #if 0 //문자 4개 입력받아 출력
 
     #include <stdio.h>
     
@@ -41,7 +41,7 @@ int main() {
     }
     # endif
 
-    #if 0
+    #if 0 // 한 자릿수 정수 입력 및 계산
     #include <stdio.h>
     
     int main() {
@@ -55,7 +55,7 @@ int main() {
     } 
     #endif
 
-    #if 1
+    #if 1 //정수 연산과 문자 처리 프로그램
     #include <stdio.h>
     
     int main() {

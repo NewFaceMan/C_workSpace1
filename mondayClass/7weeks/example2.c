@@ -5,7 +5,7 @@ int main(int argc, char const *argv[])
     scanf("%c", &ch);
     for (int i = 'a'; i <= ch; i++)
     {
-        if (ch != 'a' && ch != 'e' && ch!='i', ch != 'o', ch != 'u')
+        if (ch != 'a' && ch != 'e' && ch!='i' && ch != 'o'&& ch != 'u')
         {
             printf("%c", ch);
         }
