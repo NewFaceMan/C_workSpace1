@@ -1,33 +1,45 @@
 {
-  "version": "0.2.0",
-  "configurations": [
-    
-    {
-      "name": "(lldb) 연결",
-      "type": "cppdbg",
-      "request": "attach",
-      "program": "프로그램 이름 입력(예: ${workspaceFolder}/a.out)",
-      "MIMode": "lldb"
-    },
-    {
-      "name": "(lldb) 시작",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "프로그램 이름 입력(예: ${workspaceFolder}/a.out)",
-      "args": [],
-      "stopAtEntry": false,
-      "cwd": "${fileDirname}",
-      "environment": [],
-      "externalConsole": false,
-      "MIMode": "lldb"
-    },
-    {
-      "name": "C/C++ Runner: Debug Session",
-      "type": "lldb",
-      "request": "launch",
-      "args": [],
-      "cwd": "/Users/dipping/Desktop/C_workSpace/fridayClass",
-      "program": "/Users/dipping/Desktop/C_workSpace/fridayClass/build/Debug/outDebug"
-    }
-  ]
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(lldb) 연결",
+            "type": "cppdbg",
+            "request": "attach",
+            "program": "프로그램 이름 입력(예: ${workspaceFolder}/a.out)",
+            "MIMode": "lldb"
+        },
+        {
+            "name": "(lldb) 시작",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "프로그램 이름 입력(예: ${workspaceFolder}/a.out)",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
+        },
+        {
+            "name": "C/C++ Runner: Debug Session",
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "/Users/dipping/Desktop/C_workSpace/fridayClass",
+            "program": "/Users/dipping/Desktop/C_workSpace/fridayClass/build/Debug/outDebug"
+        },
+        {
+            "name": "C/C++: gcc 활성 파일 빌드 및 디버그",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "C/C++: gcc 활성 파일 빌드"
+        }
+    ]
 }

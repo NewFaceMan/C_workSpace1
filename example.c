@@ -1,15 +1,12 @@
 #include <stdio.h>
-int main(int argc, char const *argv[])
-{
-    int sum = 0;
-    int a = 0;
 
-    printf("1에서 10까지 합을 구합니다.\n");
-    do
-    {
-        sum += a;
-        a++;
-    } while (a <= 10);
-    printf("합은 %d입니다.\n", sum);
+int main() {
+    int n = 0;
+    scanf("%d", &n);
+    for(int i = 1; i <= n; i++) {
+        if(i % 2 != 0 && i % 3 == 0) {
+            printf("%d\n", i);
+        } 
+    }
     return 0;
 }
