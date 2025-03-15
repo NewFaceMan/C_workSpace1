@@ -15,15 +15,15 @@ int PrintMenu(void)
 
     system("cls");
     printf("[1]New\t[2]Search\t[3]Print\t[4]Remove\t[0]Exit\n");
-    scanf_s("%d", &nInput);
+    scanf("%d", &nInput);
     return nInput;
 }
 
 int GetAge(void)
 {
     int nAge = 0;
-    printf("³ªÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä. : ");
-    scanf_s("%d", &nAge);
+    printf("ë‚˜ì´ë¥¼ ì…ë ¥í•˜ì„¸ìš”. : ");
+    scanf("%d", &nAge);
     return nAge;
 }
 
@@ -35,7 +35,7 @@ int main(void)
     {
         if (nMenu == 1) {
             nAge = GetAge();
-            printf("¿ä±İÀº %d¿ø ÀÔ´Ï´Ù.\n", GetFee(nAge));
+            printf("ìš”ê¸ˆì€ %dì› ì…ë‹ˆë‹¤.\n", GetFee(nAge));
             getchar();
         }
     }

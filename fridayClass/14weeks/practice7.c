@@ -1,3 +1,4 @@
+//배열에 수를 입력받고 합계를 구하기
 #include <stdio.h>
 int main(int argc, char const *argv[])
 {
